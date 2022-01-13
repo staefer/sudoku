@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace sudoku
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SudokuWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SudokuWindow : Window
     {
-        public MainWindow()
+        public SudokuWindow()
         {
             InitializeComponent();
         }
