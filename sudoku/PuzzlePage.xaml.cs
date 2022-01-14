@@ -12,20 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Diagnostics;
 
 namespace sudoku
 {
     /// <summary>
-    /// Interaction logic for SudokuWindow.xaml
+    /// Interaction logic for PuzzlePage.xaml
     /// </summary>
-    public partial class SudokuWindow : Window
+    public partial class PuzzlePage : Page
     {
-        public SudokuWindow ()
+        public PuzzlePage()
         {
             InitializeComponent();
-            StartPage startPage = new StartPage();
-            this.Content = startPage;
         }
     }
 }

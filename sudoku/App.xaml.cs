@@ -13,5 +13,10 @@ namespace sudoku
     /// </summary>
     public partial class App : Application
     {
+        public void Application_Startup(object sender, StartupEventArgs e)
+        {
+            SudokuWindow sudokuWindow = new SudokuWindow();
+            sudokuWindow.Show();
+        }
     }
 }
