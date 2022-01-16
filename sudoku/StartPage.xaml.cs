@@ -32,7 +32,7 @@ namespace sudoku
             if (puzzlePage != null)
             {
                 // Blir null :/
-                //NavigationService.Navigate(puzzlePage);
+               this.NavigationService.Navigate(puzzlePage);
             }
         }
 
