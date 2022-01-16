@@ -24,14 +24,10 @@ namespace sudoku
         public SudokuWindow ()
         {
             InitializeComponent();
+
             StartPage startPage = new StartPage();
-            this.Content = startPage;
+            main.Content = startPage;
         }
 
-        public void NavigateToPuzzle()
-        {
-            PuzzlePage puzzlePage = new PuzzlePage();
-            this.Content = puzzlePage;
-        }
     }
 }

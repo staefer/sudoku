@@ -47,6 +47,12 @@ namespace sudoku
             //Debug.WriteLine("Hard is clicked.");
 
         }
+
+        // Exit button is pressed
+        private void exitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 
     
