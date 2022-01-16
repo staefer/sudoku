@@ -27,5 +27,11 @@ namespace sudoku
             StartPage startPage = new StartPage();
             this.Content = startPage;
         }
+
+        public void NavigateToPuzzle()
+        {
+            PuzzlePage puzzlePage = new PuzzlePage();
+            this.Content = puzzlePage;
+        }
     }
 }

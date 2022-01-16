@@ -35,7 +35,7 @@ namespace sudoku
                this.NavigationService.Navigate(puzzlePage);
             }
         }
-
+        
         private void mediumBtn_Click(object sender, RoutedEventArgs e)
         {
             //Debug.WriteLine("Medium is clicked.");

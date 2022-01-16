@@ -23,6 +23,9 @@ namespace sudoku
         public PuzzlePage()
         {
             InitializeComponent();
+
         }
+
+        private string test = "yep";
     }
 }
