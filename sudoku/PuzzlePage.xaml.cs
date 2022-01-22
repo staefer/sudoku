@@ -20,12 +20,13 @@ namespace sudoku
     /// </summary>
     public partial class PuzzlePage : Page
     {
+        private const int innerWidth = 3;
+        private const int outerWidth = innerWidth*innerWidth;
+
         public PuzzlePage()
         {
             InitializeComponent();
-
         }
-
-        private string test = "yep";
+        
     }
 }
